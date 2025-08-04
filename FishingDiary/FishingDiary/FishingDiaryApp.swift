@@ -11,7 +11,8 @@ import SwiftUI
 struct FishingDiaryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogFishingTripView()
+            FishingTripListView()
         }
     }
 }
